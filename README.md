@@ -2,8 +2,6 @@
 
 Este proyecto es un sistema de gestión de tareas que se ejecuta por consola. Permite realizar operaciones como agregar, editar, eliminar, listar y buscar tareas, aplicando principios de diseño orientado a objetos y la arquitectura SOLID.
 
----
-
 ## Requisitos Previos
 
 Asegúrate de tener lo siguiente instalado antes de ejecutar este proyecto:
@@ -13,7 +11,6 @@ Asegúrate de tener lo siguiente instalado antes de ejecutar este proyecto:
 - **Git**: Para clonar el repositorio.
 - **Eclipse**: Para importar proyecto Maven y correr proyecto.
 
----
 
 ## Instalación
 
@@ -124,7 +121,6 @@ Ingresa el Término de búsqueda: presentación
 6) Salir
 Cierra la aplicación.
 
----
 
 ## Pruebas Unitarias
 El proyecto incluye pruebas unitarias para las funcionalidades principales:
@@ -145,7 +141,6 @@ Los resultados pueden ser exportados a un archivo con:
 mvn test > resultados-pruebas.txt
 ```
 
----
 
 ##Autor
 
