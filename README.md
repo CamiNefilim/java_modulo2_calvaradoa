@@ -75,10 +75,12 @@ Ingresa el número correspondiente a la acción que deseas realizar y sigue las 
 1) Agregar tarea: 
 
 Se solicitarán los siguientes datos:
-Título (obligatorio): El nombre de la tarea.
-Descripción (obligatoria): Detalle de la tarea.
-Prioridad (obligatoria): Selecciona entre ALTA, MEDIA o BAJA.
-Estado (obligatorio): Selecciona entre PENDIENTE, EN_PROGRESO o COMPLETADA.
+
+- **Título (obligatorio)**: El nombre de la tarea.
+- **Descripción (obligatoria)**: Detalle de la tarea.
+- **Prioridad (obligatoria)**: Selecciona entre ALTA, MEDIA o BAJA.
+- **Estado (obligatorio)**: Selecciona entre PENDIENTE, EN_PROGRESO o COMPLETADA.
+
 Ejemplo:
 
 ```bash
@@ -89,12 +91,13 @@ Ingresa un Estado (PENDIENTE, EN_PROGRESO, COMPLETADA): PENDIENTE
 ```
 
 2) Editar tarea: 
-Se solicitará el ID de la tarea que deseas editar.
-Podrás modificar uno o más campos:
-Título: Opcional.
-Descripción: Opcional.
-Prioridad: Opcional (ALTA, MEDIA, BAJA).
-Estado: Opcional (PENDIENTE, EN_PROGRESO, COMPLETADA).
+
+Se solicitará el ID de la tarea que deseas editar. Podrás modificar uno o más campos:
+- **Título**: Opcional
+- **Descripción**: Opcional.
+- **Prioridad**: Opcional (ALTA, MEDIA, BAJA).
+- **Estado**: Opcional (PENDIENTE, EN_PROGRESO, COMPLETADA).
+
 Ejemplo:
 
 ```bash
@@ -106,8 +109,9 @@ Nuevo estado (PENDIENTE, EN_PROGRESO, COMPLETADA) (opcional): EN_PROGRESO
 ```
 
 3) Eliminar tarea: 
-Ingresa el ID de la tarea que deseas eliminar.
-La tarea será eliminada si existe en la lista.
+
+Ingresa el ID de la tarea que deseas eliminar. La tarea será eliminada si existe en la lista.
+
 Ejemplo:
 
 ```bash
@@ -115,22 +119,20 @@ Ingresa el ID de la tarea a eliminar: 1
 ```
 
 4) Listar tareas: 
-Muestra todas las tareas ordenadas por prioridad (ALTA > MEDIA > BAJA).
-Si no hay tareas, se mostrará un mensaje.
+
+Muestra todas las tareas ordenadas por prioridad (ALTA > MEDIA > BAJA). Si no hay tareas, se mostrará un mensaje.
 
 6) Buscar tarea: 
-Ingresa un término de búsqueda que puede coincidir con el título o descripción de una tarea.
-Las coincidencias se mostrarán en la consola.
+
+Ingresa un término de búsqueda que puede coincidir con el título o descripción de una tarea. Las coincidencias se mostrarán en la consola.
+
 Ejemplo:
 
 ```bash
 Ingresa el Término de búsqueda: presentación
 ```
 
-6) Salir: 
-Cierra la aplicación.
-
-
+6) Salir: Cierra la aplicación.
 
 ## Pruebas Unitarias
 El proyecto incluye pruebas unitarias para las funcionalidades principales:
