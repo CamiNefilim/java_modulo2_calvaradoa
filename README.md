@@ -48,8 +48,10 @@ mvn package
 Ejecuta la aplicación desde el archivo JAR:
 
 ```bash
-java -jar target/sistema-gestion-tareas-1.0-SNAPSHOT.jar
+java -jar calvaradoa-0.0.1-SNAPSHOT.jar
 ```
+
+También se puede ejecutar la aplicación desde eclipse y correr el proyecto en IDE.
 
 **Interacción con el menú:** Una vez iniciada la aplicación, aparecerá un menú en la consola con las siguientes opciones:
 
