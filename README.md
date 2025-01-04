@@ -2,12 +2,15 @@
 
 Este proyecto es un sistema de gestión de tareas que se ejecuta por consola. Permite realizar operaciones como agregar, editar, eliminar, listar y buscar tareas, aplicando principios de diseño orientado a objetos y la arquitectura SOLID.
 
+
+
 ## Requisitos Previos
 
 - **Java Development Kit (JDK)**: Versión 21.
 - **Apache Maven**: Para la gestión de dependencias y construcción del proyecto.
 - **Git**: Para clonar el repositorio.
 - **Eclipse**: Para importar proyecto Maven y correr proyecto.
+
 
 
 ## Instalación
@@ -37,7 +40,8 @@ mvn test
 mvn package
 ```
 
----
+
+
 
 ## Ejecución
 
@@ -124,6 +128,7 @@ Ingresa el Término de búsqueda: presentación
 Cierra la aplicación.
 
 
+
 ## Pruebas Unitarias
 El proyecto incluye pruebas unitarias para las funcionalidades principales:
 
@@ -142,6 +147,7 @@ Los resultados pueden ser exportados a un archivo con:
 ```bash
 mvn test > resultados-pruebas.txt
 ```
+
 
 
 ## Autor
