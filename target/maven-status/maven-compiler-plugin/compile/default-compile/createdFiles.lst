@@ -1,0 +1,11 @@
+com\talentofuturo\evaluacion1\calvaradoa\service\IMenuManager.class
+com\talentofuturo\evaluacion1\calvaradoa\service\TaskManager.class
+com\talentofuturo\evaluacion1\calvaradoa\model\ResponseUtil.class
+com\talentofuturo\evaluacion1\calvaradoa\model\TaskStatus.class
+com\talentofuturo\evaluacion1\calvaradoa\App.class
+com\talentofuturo\evaluacion1\calvaradoa\service\MenuManager.class
+com\talentofuturo\evaluacion1\calvaradoa\model\Task.class
+com\talentofuturo\evaluacion1\calvaradoa\model\ErrorResponse.class
+com\talentofuturo\evaluacion1\calvaradoa\model\SuccessResponse.class
+com\talentofuturo\evaluacion1\calvaradoa\service\ITaskManager.class
+com\talentofuturo\evaluacion1\calvaradoa\model\TaskPriority.class
