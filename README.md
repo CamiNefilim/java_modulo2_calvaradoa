@@ -15,26 +15,20 @@ Este proyecto es un sistema de gestión de tareas que se ejecuta por consola. Pe
 
 ## Instalación
 
-1. **Clona el repositorio:**
+1. **Clonar el repositorio:**
    
 ```bash
 git clone https://github.com/CamiNefilim/java_modulo2_calvaradoa.git
 cd java_modulo2_calvaradoa
 ```
 
-2. **Compila el proyecto con Maven:**
+2. **Compilar el proyecto con Maven:**
 
  ```bash
 mvn clean compile
 ```
 
-3. **Ejecuta las pruebas para verificar la funcionalidad:**
-   
-```bash
-mvn test
-```
-
-4. **Genera el archivo JAR ejecutable:**
+5. **Generar el archivo JAR ejecutable:**
 
 ```bash
 mvn package
