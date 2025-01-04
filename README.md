@@ -4,9 +4,7 @@ Este proyecto es un sistema de gestión de tareas que se ejecuta por consola. Pe
 
 ## Requisitos Previos
 
-Asegúrate de tener lo siguiente instalado antes de ejecutar este proyecto:
-
-- **Java Development Kit (JDK)**: Versión 21 o superior.
+- **Java Development Kit (JDK)**: Versión 21.
 - **Apache Maven**: Para la gestión de dependencias y construcción del proyecto.
 - **Git**: Para clonar el repositorio.
 - **Eclipse**: Para importar proyecto Maven y correr proyecto.
@@ -15,10 +13,12 @@ Asegúrate de tener lo siguiente instalado antes de ejecutar este proyecto:
 ## Instalación
 
 1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/CamiNefilim/java_modulo2_calvaradoa.git
-   cd java_modulo2_calvaradoa
-   ```
+   
+```bash
+git clone https://github.com/CamiNefilim/java_modulo2_calvaradoa.git
+cd java_modulo2_calvaradoa
+```
+
 2. **Compila el proyecto con Maven:**
 
  ```bash
@@ -26,6 +26,7 @@ mvn clean compile
 ```
 
 3. **Ejecuta las pruebas para verificar la funcionalidad:**
+   
 ```bash
 mvn test
 ```
@@ -39,13 +40,14 @@ mvn package
 ---
 
 ## Ejecución
+
 Ejecuta la aplicación desde el archivo JAR:
 
 ```bash
 java -jar target/sistema-gestion-tareas-1.0-SNAPSHOT.jar
 ```
 
-Interacción con el menú: Una vez iniciada la aplicación, aparecerá un menú en la consola con las siguientes opciones:
+**Interacción con el menú:** Una vez iniciada la aplicación, aparecerá un menú en la consola con las siguientes opciones:
 
 **Menú Principal**
 
@@ -142,6 +144,6 @@ mvn test > resultados-pruebas.txt
 ```
 
 
-##Autor
+## Autor
 
 Creado por Camila Alvarado como parte de un ejercicio práctico para Curso Java Backend - Talento Futuro
