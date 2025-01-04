@@ -45,9 +45,10 @@ mvn package
 
 ## Ejecución
 
-Ejecuta la aplicación desde el archivo JAR:
+Se puede ejecutar la aplicación desde el archivo JAR, ingresando por consola a la raiz del proyecto:
 
 ```bash
+cd target/
 java -jar calvaradoa-0.0.1-SNAPSHOT.jar
 ```
 
